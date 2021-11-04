@@ -1,0 +1,59 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+5.4.0-89-generic - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84466/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84466.dir/build.make CMakeFiles/cmTC_84466.dir/build
+make[1]: 进入目录“/home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_84466.dir/testCCompiler.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_84466.dir/testCCompiler.c.o   -c /home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_84466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84466.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      CMakeFiles/cmTC_84466.dir/testCCompiler.c.o  -o cmTC_84466 
+make[1]: 离开目录“/home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp”
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4abfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4abfb.dir/build.make CMakeFiles/cmTC_4abfb.dir/build
+make[1]: 进入目录“/home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4abfb.dir/CMakeCCompilerABI.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_4abfb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4abfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4abfb.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      CMakeFiles/cmTC_4abfb.dir/CMakeCCompilerABI.c.o  -o cmTC_4abfb 
+make[1]: 离开目录“/home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp”
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09d04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09d04.dir/build.make CMakeFiles/cmTC_09d04.dir/build
+make[1]: 进入目录“/home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_09d04.dir/testCXXCompiler.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_09d04.dir/testCXXCompiler.cxx.o -c /home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_09d04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09d04.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       CMakeFiles/cmTC_09d04.dir/testCXXCompiler.cxx.o  -o cmTC_09d04 
+make[1]: 离开目录“/home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp”
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29105/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29105.dir/build.make CMakeFiles/cmTC_29105.dir/build
+make[1]: 进入目录“/home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_29105.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_29105.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_29105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29105.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       CMakeFiles/cmTC_29105.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_29105 
+make[1]: 离开目录“/home/s/code/c++/employee-system/build/CMakeFiles/CMakeTmp”
+
+

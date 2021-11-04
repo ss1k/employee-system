@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7     CMakeFiles/project.dir/boss.cpp.o CMakeFiles/project.dir/employee.cpp.o CMakeFiles/project.dir/emplyee-system.cpp.o CMakeFiles/project.dir/manager.cpp.o CMakeFiles/project.dir/workerManager.cpp.o  -o project 
