@@ -34,7 +34,7 @@ workerManager::workerManager(){
 	}
 
 	//3.文件存在，有数据
-	this->m_FileIsEmpty = false;  //每加这一句，开始直接显示就不能显示上一次的1
+	this->m_FileIsEmpty = false;  //没加这一句，开始直接显示就不能显示上一次的1
 	int num =  this->get_EmpNum();
 	cout << "职工个数为：" << num << endl;  //测试代码
 	this->m_EmpNum = num;  //更新成员属性 
@@ -86,7 +86,7 @@ void workerManager::add_Emp(){
 		//计算新空间大小
 		int newSize = this->m_EmpNum + addNum;
 		//开辟新空间
-		worker ** newSpace = new worker*[newSize];
+		worker ** newSpace = new worker*[newSize];  //worker*[]是一个数组，里面存放的是指针
 		//将原空间下内容存放到新空间下
 		if(this->m_EmpArray!=NULL) {
 			for(int i = 0;i<this->m_EmpNum;i++) {
@@ -436,8 +436,6 @@ void workerManager::Sort_Emp()
 	if (this->m_FileIsEmpty)
 	{
 		cout << "文件不存在或记录为空！" << endl;
-		system("pause");
-		system("cls");
 	}
 	else
 	{
